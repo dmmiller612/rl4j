@@ -137,6 +137,7 @@ public abstract class QLearning<O extends Encodable, A, AS extends ActionSpace<A
 
     @Data
     @AllArgsConstructor
+    @Builder
     @EqualsAndHashCode(callSuper = false)
     public static class QLConfiguration implements LConfiguration {
 
